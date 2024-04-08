@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>PyScript Next</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@pyscript/core/dist/core.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@pyscript/core"></script> 
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Véletlenszámok</h1>
+    <h4>Element.innerHTML</h4>
+    <div id="kimenet"></div>
+
+    <h1>Adatok beolvasása</h1>
+    <input type="text" id="beviteli-mezo" />
+    <button type="submit" py-click="beolvas">Beolvasás</button>
+    <div id="kimenet1"></div>
+
+    <py-script src="main.py"></py-script>
+  </body>
+</html>
